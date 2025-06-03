@@ -114,11 +114,11 @@ Model, proje içerisinde bulunan `EgitimKodu.py` adlı Jupyter Notebook kullanı
     * Eğitim ve doğrulama sürecindeki kayıp ve doğruluk değerleri ile doğrulama setindeki precision, recall ve F1-skoru değerlerinin epoch'lara göre değişimi `matplotlib` kullanılarak aşağıdaki gibi grafiklerle görselleştirilmiştir:
 
     **Öğrenme Eğrileri (Loss ve Accuracy):**
-    ![Öğrenme Eğrileri](images/learning_curves_matplotlib.png)
+    ![Öğrenme Eğrileri](Swin-Animal-Classifier/images/learning_curves_matplotlib.png)
     *Grafik: Eğitim ve Doğrulama Kaybı (Sol), Eğitim ve Doğrulama Doğruluğu (Sağ)*
 
     **Doğrulama Seti Metrikleri (Precision, Recall, F1-Skoru):**
-    ![Precision, Recall, F1 Eğrileri](images/precision_recall_f1_curves_matplotlib.png)
+    ![Precision, Recall, F1 Eğrileri](Swin-Animal-Classifier/images/precision_recall_f1_curves_matplotlib.png)
     *Grafik: Doğrulama Seti Precision, Recall ve F1-Skoru Değişimi*
 
 Bu adımlar sonucunda elde edilen `best_checkpoint.pth` model ağırlık dosyası, `app.py` masaüstü uygulamasında hayvan sınıflandırma tahminleri yapmak için kullanılır. Dosya adını `best_checkpoint.pth` olarak değiştirip `app.py`'nin beklediği konuma yerleştirmek veya `app.py` içerisindeki yolu güncellemek gerekebilir.
